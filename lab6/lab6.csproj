@@ -131,10 +131,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Bank.cs" />
-    <Compile Include="Models\Bank_dbInitializer.cs" />
+    <Compile Include="Models\Match.cs" />
+    <Compile Include="Models\Match_dbInitializer.cs" />
     <Compile Include="Models\Context.cs" />
-    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Stadium.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -170,7 +170,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Buy.cshtml" />
+    <Content Include="Views\Home\HoldAMatch.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

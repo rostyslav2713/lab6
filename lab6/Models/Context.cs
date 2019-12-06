@@ -8,9 +8,9 @@ namespace lab6.Models
 {
     public class Context : DbContext
     {
-        public Context() : base("name=BankContext") { }
+        public Context() : base("name=MatchContext") { }
 
-        public DbSet<Bank> Banks { get; set; }
-        public DbSet<Country> Countries { get; set; }
+        public DbSet<Match> Matches { get; set; }
+        public DbSet<Stadium> Stadiums { get; set; }
     }
 }

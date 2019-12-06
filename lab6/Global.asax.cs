@@ -10,7 +10,7 @@ namespace lab6
     {
         protected void Application_Start()
         {
-            Database.SetInitializer(new Bank_dbInitializer());
+            Database.SetInitializer(new Match_dbInitializer());
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

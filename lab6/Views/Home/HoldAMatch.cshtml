@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Провести матч</title>
+
+</head>
+<body>
+    <div >
+        <h1>Заповніть, щоб провести матч!</h1>
+        <form method="post" action="">
+            <input type="hidden" value="@ViewBag.matchId" name="matchId" />
+            <table>
+                <tr>
+                    <td><p>Введіть назву стадіону: </p></td>
+                    <td><input type="text" name="stadiumName" /> </td>
+                </tr>
+                <tr>
+                    <td><p>Введіть місце знаходження стадіону:</p></td>
+                    <td><input type="text" name="stadiumLocation" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введіть площу стадіону:</p></td>
+                    <td><input type="number" name="stadiumArea" /></td>
+                </tr>
+                <tr><td><input type="submit" value="Відправити" /> </td><td></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
